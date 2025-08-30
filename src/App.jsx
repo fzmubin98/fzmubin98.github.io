@@ -27,26 +27,35 @@ export default function App() {
       <header className="hero">
         <div className="container header-inner">
           <div className="title-block">
-            <h1 className="name">Mohammed Fazle Mubin</h1>
-            <p className="role">DevOps &amp; Cloud Engineer</p>
+            <div className="profile-section">
+              <img 
+                src="/src/assets/profile.jpg" 
+                alt="Mohammed Fazle Mubin"
+                className="profile-image"
+              />
+              <div className="profile-text">
+                <h1 className="name">Mohammed Fazle Mubin</h1>
+                <p className="role">DevOps &amp; Cloud Engineer</p>
+                
+                <div className="links">
+                  <a className="pill" href="mailto:fzmubin98@gmail.com">
+                    <span className="icon"><IconMail/></span>
+                    fzmubin98@gmail.com
+                  </a>
 
-            <div className="links">
-              <a className="pill" href="mailto:fzmubin98@gmail.com">
-                <span className="icon"><IconMail/></span>
-                fzmubin98@gmail.com
-              </a>
+                  <a className="pill" href="https://www.linkedin.com/in/fazle-mubin-325007242/" target="_blank" rel="noreferrer">
+                    <span className="icon"><IconLink/></span>
+                    LinkedIn
+                  </a>
 
-              <a className="pill" href="https://www.linkedin.com/in/fazle-mubin-325007242/" target="_blank" rel="noreferrer">
-                <span className="icon"><IconLink/></span>
-                LinkedIn
-              </a>
-
-              <a className="pill" href="https://github.com/fzmubin98" target="_blank" rel="noreferrer">
-                <span className="icon">GH</span>
-                GitHub
-              </a>
+                  <a className="pill" href="https://github.com/fzmubin98" target="_blank" rel="noreferrer">
+                    <span className="icon">GH</span>
+                    GitHub
+                  </a>
+                </div>
+              </div>
             </div>
-
+            
             <p className="address">67 Swamibag Road, Dhaka · +8801676345176</p>
           </div>
         </div>
@@ -125,7 +134,7 @@ export default function App() {
 
         <section id="cert" className="card">
           <h2>Certifications & Tools</h2>
-          <p>HashiCorp Certified: Terraform Associate (003)</p>
+          <p><strong>HashiCorp Certified: Terraform Associate (003)</strong></p>
           <p className="muted">Tools: Okta, ZTNA, Klocwork, InstallShield. VCS: GitHub, GitLab, Bitbucket, Gerrit.</p>
         </section>
 

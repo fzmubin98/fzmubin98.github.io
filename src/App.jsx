@@ -1,5 +1,6 @@
 // src/App.jsx
 import React from "react";
+import profileImg from "./assets/profile.jpg";
 
 function IconMail() {
   return (
@@ -29,7 +30,7 @@ export default function App() {
           <div className="title-block">
             <div className="profile-section">
               <img 
-                src="/src/assets/profile.jpg" 
+                src={profileImg}
                 alt="Mohammed Fazle Mubin"
                 className="profile-image"
               />

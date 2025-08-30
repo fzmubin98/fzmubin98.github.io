@@ -37,114 +37,225 @@ export default function App() {
               <div className="profile-text">
                 <h1 className="name">Mohammed Fazle Mubin</h1>
                 <p className="role">DevOps &amp; Cloud Engineer</p>
-                
-                <div className="links">
-                  <a className="pill" href="mailto:fzmubin98@gmail.com">
-                    <span className="icon"><IconMail/></span>
-                    fzmubin98@gmail.com
-                  </a>
-
-                  <a className="pill" href="https://www.linkedin.com/in/fazle-mubin-325007242/" target="_blank" rel="noreferrer">
-                    <span className="icon"><IconLink/></span>
-                    LinkedIn
-                  </a>
-
-                  <a className="pill" href="https://github.com/fzmubin98" target="_blank" rel="noreferrer">
-                    <span className="icon">GH</span>
-                    GitHub
-                  </a>
-                </div>
               </div>
             </div>
             
+            <div className="links">
+              <a className="pill" href="mailto:fzmubin98@gmail.com">
+                <span className="icon"><IconMail/></span>
+                fzmubin98@gmail.com
+              </a>
+
+              <a className="pill" href="https://www.linkedin.com/in/fazle-mubin-325007242/" target="_blank" rel="noreferrer">
+                <span className="icon"><IconLink/></span>
+                LinkedIn
+              </a>
+
+              <a className="pill" href="https://github.com/fzmubin98" target="_blank" rel="noreferrer">
+                <span className="icon">GH</span>
+                GitHub
+              </a>
+              
+              <a className="pill" href="https://www.credly.com/users/fazle-mubin123" target="_blank" rel="noreferrer">
+                <span className="icon">CR</span>
+                Credly
+              </a>
+            </div>
+
             <p className="address">67 Swamibag Road, Dhaka · +8801676345176</p>
           </div>
         </div>
       </header>
 
-      <main className="container main-grid">
-        <section id="objective" className="card">
-          <h2>Career Objective</h2>
-          <p>
-            As a passionate and detail-oriented DevOps and Cloud Engineer, I strive to deliver state-of-the-art solutions
-            that reflect my love for science and innovation. I leverage efficient problem-solving to create unique, impactful
-            solutions that benefit society while continuously learning to expand my expertise.
-          </p>
-        </section>
+      <main className="main-content">
+        <div className="container">
+          <div className="content-grid">
+            
+            <div className="left-column">
+              <section className="card">
+                <h2>Career Objective</h2>
+                <p>
+                  As a passionate and detail-oriented DevOps and Cloud Engineer, I strive to deliver state-of-the-art 
+                  solutions that reflect my love for science and innovation. My goal is to leverage hard work, efficient 
+                  thinking, and a problem-solving mindset to create unique, impactful solutions that benefit society. With 
+                  an unwavering hunger for learning and growth, I aim to expand my expertise as a multi-dimensional 
+                  engineer, serving clients locally and internationally while driving innovation and excellence in every 
+                  project I undertake.
+                </p>
+              </section>
 
-        <section id="experience" className="card">
-          <h2>Work Experience</h2>
+              <section className="card">
+                <h2>Work Experience</h2>
 
-          <article className="work">
-            <div className="work-left">
-              <h3>DevOps &amp; Cloud Engineer — BJIT Ltd.</h3>
-              <p className="muted">Aug 2023 — Present</p>
-            </div>
-            <div className="work-right">
-              <ul>
-                <li>Manage large client infrastructure on Google Cloud Platform ensuring scalability & fault tolerance.</li>
-                <li>Design & maintain infra with Terraform; worked with AWS ECS, Load Balancers, EC2.</li>
-                <li>Automated workflows with Lambda, Step Functions, EventBridge, SNS; monitored via CloudWatch.</li>
-                <li>Implemented security measures (WAF, Shield), CI/CD (GitHub Actions, GitLab CI/CD, Jenkins).</li>
-                <li>Led client communication, documentation, and team accountability processes.</li>
-              </ul>
-            </div>
-          </article>
+                <div className="work-item">
+                  <div className="work-header">
+                    <h3>DevOps and Cloud Engineer</h3>
+                    <div className="work-meta">
+                      <span className="company">BJIT Ltd.</span>
+                      <span className="period">August 2023 — Present</span>
+                    </div>
+                  </div>
+                  <ul className="work-details">
+                    <li>Manage a massive client infrastructure on Google Cloud Platform, ensuring scalability, fault tolerance, and damage recovery across multiple servers.</li>
+                    <li>Utilized Terraform to design, create, and maintain complex architectures incorporating services like AWS ECS, AWS Load Balancer, and AWS EC2.</li>
+                    <li>Worked extensively with AWS services including Lambda, Step Functions, EventBridge, SNS, CloudWatch, ECR, RDS and Aurora, WAF and Shield, SES to automate workflows, monitor system health, enhance security, and ensure robust notification systems.</li>
+                    <li>Implement and maintain state-of-the-art security measures to protect sensitive systems and data.</li>
+                    <li>Oversee systems connecting thousands of developers, utilizing tools like Version Control Systems, CI/CD pipelines with GitHub Action, GitLab CI/CD, Jenkins.</li>
+                    <li>Develop and implement threat detection mechanisms to identify and mitigate potential risks proactively.</li>
+                    <li>Engage in continuous client communication to ensure alignment with project goals and provide updates to stakeholders.</li>
+                    <li>Drive accountability within the team by assigning responsibilities, ensuring seamless project management, and monitoring deliverables.</li>
+                    <li>Maintain comprehensive, up-to-date project documentation to support operational continuity and future scalability.</li>
+                  </ul>
+                  <div className="tech-used">
+                    <strong>Technology:</strong> Terraform, GitHub, AWS Lambda, AWS Step Functions, AWS EventBridge, AWS SNS, AWS CloudWatch, AWS ECR, AWS RDS, Aurora, AWS WAF, Shield, AWS SES, GitHub Actions, GitLab CI/CD, GCP, Virtual Machines, Load Balancer, Cloud Armor, Windows Server, GitLab, SAST
+                  </div>
+                </div>
 
-          <article className="work">
-            <div className="work-left">
-              <h3>Trainee DevOps &amp; Cloud Engineer — BJIT Academy</h3>
-              <p className="muted">Apr 2023 — Jul 2023</p>
-            </div>
-            <div className="work-right">
-              <ul>
-                <li>Hands-on with Linux, Docker, Ansible, Jenkins, Git, GitLab, Kubernetes.</li>
-                <li>Deployed & maintained AWS infrastructure; sharpened client communication & PM skills.</li>
-              </ul>
-            </div>
-          </article>
-        </section>
+                <div className="work-item">
+                  <div className="work-header">
+                    <h3>Trainee DevOps and Cloud Engineer</h3>
+                    <div className="work-meta">
+                      <span className="company">BJIT Academy</span>
+                      <span className="period">April 2023 — July 2023</span>
+                    </div>
+                  </div>
+                  <ul className="work-details">
+                    <li>Gained hands-on experience with DevOps tools, including Linux, Docker, Ansible, Jenkins, Git, GitHub, GitLab, and Kubernetes.</li>
+                    <li>Worked extensively with AWS cloud services to deploy and manage scalable cloud infrastructure.</li>
+                    <li>Developed strong business communication skills for effective collaboration with clients and teams.</li>
+                    <li>Enhanced project management abilities to ensure timely delivery of tasks and project milestones.</li>
+                    <li>Engaged in client communication to understand requirements and provide tailored solutions.</li>
+                    <li>Gained exposure to Japanese and other international cultures, fostering cross-cultural collaboration and understanding.</li>
+                  </ul>
+                  <div className="tech-used">
+                    <strong>Technology:</strong> Linux, Docker, Ansible, Jenkins, Git, GitHub, GitLab, Kubernetes, Nginx, Apache2, Tomcat, SpringBoot, Node.JS, PHP, MySQL
+                  </div>
+                </div>
+              </section>
 
-        <section id="skills" className="card">
-          <h2>Skills &amp; Technologies</h2>
-          <div className="chips">
-            {["Terraform","AWS","GCP","Docker","Kubernetes","CI/CD","GitHub Actions","Jenkins","Linux","Python","Java","MySQL","Postgres","MongoDB"].map(s => (
-              <span key={s} className="chip">{s}</span>
-            ))}
+              <section className="card">
+                <h2>Projects</h2>
+                <div className="project-item">
+                  <h4>HyperLedger Fabric Induced Supershop Supply Chain Management Model</h4>
+                  <p className="project-year">2022</p>
+                  <p>Completed thesis on securing product authenticity using Hyperledger Fabric and Golang for supply chain management.</p>
+                </div>
+              </section>
+            </div>
+
+            <div className="right-column">
+              <section className="card">
+                <h2>Skills &amp; Technologies</h2>
+                
+                <div className="skill-category">
+                  <h4>Programming Languages</h4>
+                  <div className="chips">
+                    <span className="chip">Python</span>
+                    <span className="chip">Java</span>
+                    <span className="chip">Golang</span>
+                  </div>
+                </div>
+
+                <div className="skill-category">
+                  <h4>Cloud &amp; DevOps</h4>
+                  <div className="chips">
+                    <span className="chip">AWS</span>
+                    <span className="chip">GCP</span>
+                    <span className="chip">Terraform</span>
+                    <span className="chip">Docker</span>
+                    <span className="chip">Kubernetes</span>
+                    <span className="chip">Ansible</span>
+                  </div>
+                </div>
+
+                <div className="skill-category">
+                  <h4>CI/CD &amp; VCS</h4>
+                  <div className="chips">
+                    <span className="chip">Jenkins</span>
+                    <span className="chip">GitHub Actions</span>
+                    <span className="chip">GitLab CI/CD</span>
+                    <span className="chip">Git</span>
+                    <span className="chip">BitBucket</span>
+                  </div>
+                </div>
+
+                <div className="skill-category">
+                  <h4>Databases</h4>
+                  <div className="chips">
+                    <span className="chip">MySQL</span>
+                    <span className="chip">PostgreSQL</span>
+                    <span className="chip">MongoDB</span>
+                    <span className="chip">AWS RDS</span>
+                    <span className="chip">Aurora</span>
+                  </div>
+                </div>
+
+                <div className="skill-category">
+                  <h4>Security &amp; Tools</h4>
+                  <div className="chips">
+                    <span className="chip">Okta</span>
+                    <span className="chip">ZTNA</span>
+                    <span className="chip">Klocwork</span>
+                    <span className="chip">AWS WAF</span>
+                    <span className="chip">SAST</span>
+                  </div>
+                </div>
+              </section>
+
+              <section className="card">
+                <h2>Education</h2>
+                <div className="education-item">
+                  <h4>Bachelor of Science (CSE)</h4>
+                  <p className="school">BRAC University</p>
+                  <p className="grade">CGPA: 3.53</p>
+                </div>
+                <div className="education-item">
+                  <h4>Higher Secondary Certificate (HSC)</h4>
+                  <p className="school">Notre Dame College, Dhaka</p>
+                  <p className="grade">GPA: 5.0</p>
+                </div>
+                <div className="education-item">
+                  <h4>Secondary School Certificate (SSC)</h4>
+                  <p className="school">Motijheel Ideal School and College, Dhaka</p>
+                  <p className="grade">GPA: 5.0</p>
+                </div>
+              </section>
+
+              <section className="card">
+                <h2>Certifications</h2>
+                <div className="cert-item">
+                  <h4>HashiCorp Certified: Terraform Associate (003)</h4>
+                </div>
+              </section>
+
+              <section className="card">
+                <h2>Achievements</h2>
+                <ul className="achievement-list">
+                  <li>Best Client Feedback Award — Q4 2023, BJIT Group</li>
+                  <li>Best Performer Award — Q4 2023, BJIT Group</li>
+                  <li>Best Employee Award — Q1 2024, BJIT Group</li>
+                </ul>
+              </section>
+
+              <section className="card">
+                <h2>References</h2>
+                <div className="reference-item">
+                  <h4>T.M. Kamrul Bari</h4>
+                  <p>Principal Engineer – DevOps Architect</p>
+                  <p>BJIT Inc., Shibe, Tokyo, Japan</p>
+                  <p><a href="mailto:kamrul.bari@bjitgroup.com">kamrul.bari@bjitgroup.com</a></p>
+                </div>
+                <div className="reference-item">
+                  <h4>Md. Samin Irtiza</h4>
+                  <p>DevOps Engineer</p>
+                  <p>Relisource, Dhaka, Bangladesh</p>
+                  <p><a href="mailto:md.saminirtiza@gmail.com">md.saminirtiza@gmail.com</a></p>
+                </div>
+              </section>
+            </div>
+
           </div>
-        </section>
-
-        <section id="projects" className="card">
-          <h2>Projects &amp; Achievements</h2>
-          <ul className="project-list">
-            <li><strong>Thesis (2022):</strong> HyperLedger Fabric Induced Supershop Supply Chain Model (Hyperledger Fabric, Golang)</li>
-            <li><strong>ECS Event Alert Pipeline (2025):</strong> AWS Lambda, EventBridge, SNS, Slack Bot</li>
-            <li><strong>Dockerized Node.js App (2024):</strong> CI/CD with GitHub Actions</li>
-            <li className="muted">Awards: Best Client Feedback (Q4 2023), Best Performer (Q4 2023), Best Employee (Q1 2024)</li>
-          </ul>
-        </section>
-
-        <section id="education" className="card">
-          <h2>Education</h2>
-          <ul className="compact-list">
-            <li><strong>B.Sc (CSE)</strong> — BRAC University (CGPA 3.53)</li>
-            <li><strong>HSC</strong> — Notre Dame College, Dhaka (GPA 5)</li>
-            <li><strong>SSC</strong> — Motijheel Ideal School &amp; College (GPA 5)</li>
-          </ul>
-        </section>
-
-        <section id="cert" className="card">
-          <h2>Certifications & Tools</h2>
-          <p><strong>HashiCorp Certified: Terraform Associate (003)</strong></p>
-          <p className="muted">Tools: Okta, ZTNA, Klocwork, InstallShield. VCS: GitHub, GitLab, Bitbucket, Gerrit.</p>
-        </section>
-
-        <section id="contact" className="card contact-card">
-          <h2>Contact</h2>
-          <p>Email: <a href="mailto:fzmubin98@gmail.com">fzmubin98@gmail.com</a></p>
-          <p>Phone: +8801676345176</p>
-          <p className="muted">References available on request. (T.M. Kamrul Bari — kamrul.bari@bjitgroup.com)</p>
-        </section>
+        </div>
       </main>
 
       <footer className="site-footer">
@@ -153,6 +264,7 @@ export default function App() {
           <div className="links-right">
             <a href="https://github.com/fzmubin98" target="_blank" rel="noreferrer">GitHub</a>
             <a href="https://www.linkedin.com/in/fazle-mubin-325007242/" target="_blank" rel="noreferrer">LinkedIn</a>
+            <a href="https://www.credly.com/users/fazle-mubin123" target="_blank" rel="noreferrer">Credly</a>
           </div>
         </div>
       </footer>

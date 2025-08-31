@@ -62,7 +62,7 @@ export default function App() {
               </a>
             </div>
 
-            <p className="address">67 Swamibag Road, Dhaka · +8801676345176</p>
+            <p className="address">Location: Dhaka, Bangladesh</p>
           </div>
         </div>
       </header>
@@ -136,7 +136,15 @@ export default function App() {
               <section className="card">
                 <h2>Projects</h2>
                 <div className="project-item">
-                  <h4>HyperLedger Fabric Induced Supershop Supply Chain Management Model</h4>
+                  <h4>Project: Docker Multi-stage</h4>
+                  <p>Implemented a multi-stage Docker build process to optimize image size and improve deployment speed.</p>
+                  <p>Project Link: https://github.com/fzmubin98/Docker-multi-stage</p>
+                  <h4>Project: ECS Alert System</h4>
+                  <p>Developed an alert system for Amazon ECS to monitor container health and performance.</p>
+                  <p>Project Link: https://github.com/fzmubin98/ecs-alert-bot</p>
+                  <h4>Project: ECS resource with Launch template and autoscaling</h4>
+                  <p>Terraform codes and Implementation to create an ECS resource with Launch template and autoscaling.</p>
+                  <h4>Research: HyperLedger Fabric Induced Supershop Supply Chain Management Model</h4>
                   <p className="project-year">2022</p>
                   <p>Completed thesis on securing product authenticity using Hyperledger Fabric and Golang for supply chain management.</p>
                 </div>
@@ -235,22 +243,6 @@ export default function App() {
                   <li>Best Performer Award — Q4 2023, BJIT Group</li>
                   <li>Best Employee Award — Q1 2024, BJIT Group</li>
                 </ul>
-              </section>
-
-              <section className="card">
-                <h2>References</h2>
-                <div className="reference-item">
-                  <h4>T.M. Kamrul Bari</h4>
-                  <p>Principal Engineer – DevOps Architect</p>
-                  <p>BJIT Inc., Shibe, Tokyo, Japan</p>
-                  <p><a href="mailto:kamrul.bari@bjitgroup.com">kamrul.bari@bjitgroup.com</a></p>
-                </div>
-                <div className="reference-item">
-                  <h4>Md. Samin Irtiza</h4>
-                  <p>DevOps Engineer</p>
-                  <p>Relisource, Dhaka, Bangladesh</p>
-                  <p><a href="mailto:md.saminirtiza@gmail.com">md.saminirtiza@gmail.com</a></p>
-                </div>
               </section>
             </div>
 

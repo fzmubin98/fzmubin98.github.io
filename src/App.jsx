@@ -97,17 +97,17 @@ export default function App() {
                   </div>
                   <ul className="work-details">
                     <li>Manage a massive client infrastructure on Google Cloud Platform, ensuring scalability, fault tolerance, and damage recovery across multiple servers.</li>
-                    <li>Utilized Terraform to design, create, and maintain complex architectures incorporating services like AWS ECS, AWS Load Balancer, and AWS EC2.</li>
-                    <li>Worked extensively with AWS services including Lambda, Step Functions, EventBridge, SNS, CloudWatch, ECR, RDS and Aurora, WAF and Shield, SES to automate workflows, monitor system health, enhance security, and ensure robust notification systems.</li>
+                    <li>Utilized <b>Terraform</b> to design, create, and maintain complex architectures incorporating services like <b>AWS ECS</b>, <b>AWS Load Balancer</b>, and <b>AWS EC2</b>.</li>
+                    <li>Worked extensively with AWS services including <b>Lambda</b>, <b>Step Functions</b>, <b>EventBridge</b>, <b>SNS</b>, <b>CloudWatch</b>, <b>ECR</b>, <b>RDS</b> and <b>Aurora</b>, <b>WAF</b> and <b>Shield</b>, <b>SES</b> to automate workflows, Cloudwatch to monitor system health, enhance security, and ensure robust notification systems.</li>
                     <li>Implement and maintain state-of-the-art security measures to protect sensitive systems and data.</li>
-                    <li>Oversee systems connecting thousands of developers, utilizing tools like Version Control Systems, CI/CD pipelines with GitHub Action, GitLab CI/CD, Jenkins.</li>
+                    <li>Oversee systems connecting thousands of developers, utilizing tools like Version Control Systems, CI/CD pipelines with <b>GitHub Action</b>, <b>GitLab CI/CD</b>, <b>Jenkins</b>.</li>
                     <li>Develop and implement threat detection mechanisms to identify and mitigate potential risks proactively.</li>
                     <li>Engage in continuous client communication to ensure alignment with project goals and provide updates to stakeholders.</li>
                     <li>Drive accountability within the team by assigning responsibilities, ensuring seamless project management, and monitoring deliverables.</li>
                     <li>Maintain comprehensive, up-to-date project documentation to support operational continuity and future scalability.</li>
                   </ul>
                   <div className="tech-used">
-                    <strong>Technology:</strong> Terraform, GitHub, AWS Lambda, AWS Step Functions, AWS EventBridge, AWS SNS, AWS CloudWatch, AWS ECR, AWS RDS, Aurora, AWS WAF, Shield, AWS SES, GitHub Actions, GitLab CI/CD, GCP, Virtual Machines, Load Balancer, Cloud Armor, Windows Server, GitLab, SAST
+                    <strong>Technology:</strong> Terraform, GitHub, AWS Lambda, AWS Step Functions, AWS EventBridge, AWS SNS, AWS CloudWatch, AWS ECR, AWS RDS, Aurora, AWS WAF, Shield, AWS SES, GitHub Actions, GitLab CI/CD, GCP, Virtual Machines, Load Balancer, Cloud Armor, Windows Server, GitLab, SAST, Nginx
                   </div>
                 </div>
 
@@ -160,7 +160,7 @@ export default function App() {
                   <div className="chips">
                     <span className="chip">Python</span>
                     <span className="chip">Java</span>
-                    <span className="chip">Golang</span>
+                    <span className="chip">Bash</span>
                   </div>
                 </div>
 
@@ -182,7 +182,8 @@ export default function App() {
                     <span className="chip">Jenkins</span>
                     <span className="chip">GitHub Actions</span>
                     <span className="chip">GitLab CI/CD</span>
-                    <span className="chip">Git</span>
+                    <span className="chip">GitHub</span>
+                    <span className="chip">GitLab</span>
                     <span className="chip">BitBucket</span>
                   </div>
                 </div>
@@ -204,9 +205,7 @@ export default function App() {
                     <span className="chip">Okta</span>
                     <span className="chip">ZTNA</span>
                     <span className="chip">Klocwork</span>
-                    <span className="chip">AWS WAF</span>
-                    <span className="chip">SAST</span>
-                  </div>
+                    <span className="chip">AWS WAF & Shield</span>                  </div>
                 </div>
               </section>
 
